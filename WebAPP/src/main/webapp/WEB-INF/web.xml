@@ -4,4 +4,24 @@
 
 <web-app>
   <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+  	<servlet-name>Test</servlet-name>
+  	<display-name>Test</display-name>
+  	<description></description>
+  	<servlet-class>ar.org.curso.app.web.Test</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>Calculadora</servlet-name>
+  	<display-name>Calculadora</display-name>
+  	<description></description>
+  	<servlet-class>ar.org.curso.app.web.Calculadora</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>Test</servlet-name>
+  	<url-pattern>/Test</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>Calculadora</servlet-name>
+  	<url-pattern>/Calculadora</url-pattern>
+  </servlet-mapping>
 </web-app>
